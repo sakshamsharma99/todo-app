@@ -5,7 +5,7 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(express.json());
+app.use(express.json()); //Post End Point Work Correctly
 app.use(cors());
 
 
